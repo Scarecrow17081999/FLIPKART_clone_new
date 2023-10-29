@@ -1,3 +1,5 @@
+![Flipkart Clone]('./public/flipkart-page.png')
+
 # Flipkart Clone using Vite Frontend
 
 Welcome to the Flipkart Clone project! This detailed README.md file provides comprehensive information about the project, its features, prerequisites, setup instructions, project structure, usage, contribution guidelines, and licensing details.
