@@ -1,4 +1,4 @@
-![Flipkart Clone]('./public/flipkart-page.png')
+![Flipkart Clone](./public/flipkart-page.png)
 
 # Flipkart Clone using Vite Frontend
 
