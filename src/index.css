@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.h-one-tenth {
+  height: 10%;
+}
+.h-none-tenth {
+  height: 90%;
+}
+
+.footer-color {
+  background-color: #242426;
+}
+.prefooter-color {
+  background-color: #f2f2f3c2;
+}
+#dropdownImage > div > p:hover {
+  color: blue !important;
+
+  /* > div > svg {
+    transform: rotate(180deg) !important;
+    color: blue !important;
+    fill: blue !important;
+  } */
+}
+#dropdownImage {
+  > div > svg {
+    transition: all 0.2s ease-in-out !important;
+  }
+}
+
+.showSideBar {
+  transform: translateX(0px);
+}
+.hideSideBar {
+  transform: translateX(320px);
+}
+.sidebarMenu {
+  transition: all 0.2s ease-in-out;
+}
+.item-description {
+  margin-top: 40px;
+  > div > p {
+    width: 100px;
+  }
+  /* border: 1px solid red; */
+}
+.item-specifications {
+  margin-top: 40px;
+  > div > p {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mediaquery {
+    display: none;
+  }
+}
+.css-r6z5ec {
+  z-index: 9999 !important;
+}
+.flipkartOrGroceryStyle {
+  border-bottom: 3px solid rgb(95, 95, 252);
+  transition: all 0.2s ease-in-out;
+}
+.flipkartOrGroceryStyleBorder {
+  border-bottom: 3px solid transparent;
+}
+.flipkart-blue {
+  color: #2f75f0;
+}
+
+.bg-flipkart {
+  background-color: #2f75f0;
+}
